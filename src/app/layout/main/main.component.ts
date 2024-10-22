@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HeroComponent } from "../../sections/hero/hero.component";
-import { AboutComponent } from "../../sections/about/about.component";
+import { AboutComponent } from '../../sections/about/base/about.component';
 import { ResumeComponent } from "../../sections/resume/resume.component";
 import { ServicesComponent } from "../../sections/services/services.component";
 import { StatsComponent } from "../../sections/stats/stats.component";
