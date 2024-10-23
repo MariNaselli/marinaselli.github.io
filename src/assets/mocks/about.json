@@ -1,8 +1,8 @@
 {
   "about": {
-    "name": "Morgan Freeman",
+    "name": "Mariana Naselli",
     "profile": "full stack developer",
-    "email": "contact-example.com",
+    "email": "nasellimariana@gmail.com",
     "phone": "(617) 557-0089",
     "image": "assets/img/profile-img.jpg",
     "skills": [
@@ -17,6 +17,46 @@
       {
         "name": "JavaScript",
         "percentage": "75"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "55"
       },
       {
         "name": "Photoshop",
