@@ -11,7 +11,7 @@ import { TestimonialsComponent } from "../../sections/testimonials/testimonials.
 import { ContactComponent } from "../../sections/contact/contact.component";
 
 @Component({
-  selector: 'app-main',
+  selector: 'layout-main',
   standalone: true,
   imports: [HeroComponent, AboutComponent, ResumeComponent, ServicesComponent, StatsComponent, PortfolioComponent, PricingComponent, FaqComponent, TestimonialsComponent, ContactComponent],
   templateUrl: './main.component.html',
