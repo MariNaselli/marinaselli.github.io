@@ -1,0 +1,9 @@
+{
+    "hero": {
+      "title": "Hola! soy Mariana Naselli",
+      "typedItems": "Full, Stack, Developer, Jr",
+      "imageSrc": "assets/img/hero-img.jpg",
+      "imageAlt": "Hero Image"
+    }
+  }
+  
