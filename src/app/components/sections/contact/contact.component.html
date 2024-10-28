@@ -1,6 +1,3 @@
-<pre>
-  {{ contactData }}
-</pre>
 
 <section id="contact" class="contact section">
   
@@ -20,7 +17,7 @@
             <div>
               
               <h3>{{ contactData?.address.title }}</h3>
-              <a [href]="locationLink" target="_blank">{{ contactData?.address.location }}</a>
+              <a [href]="locationLink" target="_blank" style="color: #4e4e4e">{{ contactData?.address.location }}</a>
             </div>
           </div>
         </div>
@@ -31,7 +28,7 @@
             <i class="bi bi-telephone flex-shrink-0"></i>
             <div>
               <h3>{{ contactData?.phone.title }}</h3>
-              <a [href]="whatsappLink" target="_blank">{{ contactData?.phone.number }}</a>
+              <a [href]="whatsappLink" target="_blank" style="color: #4e4e4e">{{ contactData?.phone.number }}</a>
 
             </div>
           </div>
