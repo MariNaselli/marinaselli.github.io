@@ -10,7 +10,7 @@ import { FaqComponent } from '../../components/sections/faq/faq.component';
 import { TestimonialsComponent } from '../../components/sections/testimonials/testimonials.component';
 import { ContactComponent } from '../../components/sections/contact/contact.component';
 import { PortfolioDetailsComponent } from "../../components/sections/portfolio-details/portfolio-details.component";
-import { PortfolioTitleComponent } from "../../components/sections/portfolio-title/portfolio-title.component";
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'layout-main',
@@ -26,10 +26,19 @@ import { PortfolioTitleComponent } from "../../components/sections/portfolio-tit
     FaqComponent,
     TestimonialsComponent,
     ContactComponent,
-    PortfolioDetailsComponent,
-    PortfolioTitleComponent
+    PortfolioDetailsComponent
 ],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css',
 })
-export class MainComponent {}
+export class MainComponent {
+  constructor(private viewportScroller: ViewportScroller) {}
+
+  ngOnInit(): void {
+    this.scrollToSection('main');
+  }
+
+  scrollToSection(sectionId: string): void {
+    this.viewportScroller.scrollToAnchor(sectionId);
+  }
+}
