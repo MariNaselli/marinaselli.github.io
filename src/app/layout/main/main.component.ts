@@ -9,6 +9,8 @@ import { PricingComponent } from '../../components/sections/pricing/pricing.comp
 import { FaqComponent } from '../../components/sections/faq/faq.component';
 import { TestimonialsComponent } from '../../components/sections/testimonials/testimonials.component';
 import { ContactComponent } from '../../components/sections/contact/contact.component';
+import { PortfolioDetailsComponent } from "../../components/sections/portfolio-details/portfolio-details.component";
+import { PortfolioTitleComponent } from "../../components/sections/portfolio-title/portfolio-title.component";
 
 @Component({
   selector: 'layout-main',
@@ -24,7 +26,9 @@ import { ContactComponent } from '../../components/sections/contact/contact.comp
     FaqComponent,
     TestimonialsComponent,
     ContactComponent,
-  ],
+    PortfolioDetailsComponent,
+    PortfolioTitleComponent
+],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css',
 })
