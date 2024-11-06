@@ -4,12 +4,11 @@ import { AboutComponent } from '../../components/sections/about/about.component'
 import { ResumeComponent } from '../../components/sections/resume/resume.component';
 import { ServicesComponent } from '../../components/sections/services/services.component';
 import { StatsComponent } from '../../components/sections/stats/stats.component';
-import { PortfolioComponent } from '../../components/sections/portfolio/portfolio.component';
+import { ProjectListComponent } from '../../components/sections/projects/components/project-list/project-list.component';
 import { PricingComponent } from '../../components/sections/pricing/pricing.component';
 import { FaqComponent } from '../../components/sections/faq/faq.component';
 import { TestimonialsComponent } from '../../components/sections/testimonials/testimonials.component';
 import { ContactComponent } from '../../components/sections/contact/contact.component';
-import { PortfolioDetailsComponent } from "../../components/sections/portfolio-details/portfolio-details.component";
 import { ViewportScroller } from '@angular/common';
 
 @Component({
@@ -21,12 +20,11 @@ import { ViewportScroller } from '@angular/common';
     ResumeComponent,
     ServicesComponent,
     StatsComponent,
-    PortfolioComponent,
+    ProjectListComponent,
     PricingComponent,
     FaqComponent,
     TestimonialsComponent,
-    ContactComponent,
-    PortfolioDetailsComponent
+    ContactComponent
 ],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css',

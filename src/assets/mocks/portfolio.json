@@ -1,99 +1,75 @@
 [
   {
-    "title": "App 1",
+    "title": "Argentina Programa",
     "category": "App",
-    "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/app-1.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-app"
+    "description": "Portfolio descripción corta",
+    "imageUrl": "assets/img/portfolio/app-1.jpg"
   },
   {
     "title": "Product 1",
     "category": "Product",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/product-1.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-product"
+    "imageUrl": "assets/img/portfolio/product-1.jpg"
   },
   {
     "title": "Branding 1",
     "category": "Branding",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/branding-1.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-branding"
+    "imageUrl": "assets/img/portfolio/branding-1.jpg"
   },
   {
     "title": "Books 1",
     "category": "Books",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/books-1.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-book"
+    "imageUrl": "assets/img/portfolio/books-1.jpg"
   },
   {
     "title": "App 2",
     "category": "App",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/app-2.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-app"
+    "imageUrl": "assets/img/portfolio/app-2.jpg"
   },
   {
     "title": "Product 2",
     "category": "Product",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/product-2.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-product"
+    "imageUrl": "assets/img/portfolio/product-2.jpg"
   },
   {
     "title": "Branding 2",
     "category": "Branding",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/branding-2.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-branding"
+    "imageUrl": "assets/img/portfolio/branding-2.jpg"
   },
   {
     "title": "Books 2",
     "category": "Books",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/books-2.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-book"
+    "imageUrl": "assets/img/portfolio/books-2.jpg"
   },
   {
     "title": "App 3",
     "category": "App",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/app-3.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-app"
+    "imageUrl": "assets/img/portfolio/app-3.jpg"
   },
   {
     "title": "Product 3",
     "category": "Product",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/product-3.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-product"
+    "imageUrl": "assets/img/portfolio/product-3.jpg"
   },
   {
     "title": "Branding 3",
     "category": "Branding",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/branding-3.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-branding"
+    "imageUrl": "assets/img/portfolio/branding-3.jpg"
   },
   {
     "title": "Books 3",
     "category": "Books",
     "description": "Lorem ipsum, dolor sit amet consectetur",
-    "imageUrl": "assets/img/portfolio/books-3.jpg",
-    "detailsUrl": "portfolio-details.html",
-    "gallery": "portfolio-gallery-book"
+    "imageUrl": "assets/img/portfolio/books-3.jpg"
   }
 ]
 

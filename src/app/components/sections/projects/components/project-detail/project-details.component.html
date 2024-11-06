@@ -1,6 +1,6 @@
 <div class="page-title" data-aos="fade">
   <div class="container d-lg-flex justify-content-between align-items-center">
-    <h1 class="mb-2 mb-lg-0">{{ detailsData?.title }}</h1>
+    <h1 class="mb-2 mb-lg-0">{{ project.title }}</h1>
   </div>
 </div>
 
@@ -10,9 +10,9 @@
     <div class="row justify-content-between gy-4">
       <div class="col-lg-8" data-aos="fade-up">
         <div class="portfolio-description">
-          <h2>{{ detailsData?.description?.heading }}</h2>
-          <p *ngFor="let paragraph of detailsData?.description?.content">
-            {{ paragraph }}
+          <h2>{{ project.description_short }}</h2>
+          <p>
+            {{ project.description_long }}
           </p>
         </div>
       </div>
@@ -21,19 +21,22 @@
           <h3>Project Information</h3>
           <ul>
             <li>
-              <strong>Category</strong> {{ detailsData?.projectInfo?.category }}
+              <strong>Technologies</strong>
+              <div class="technologies">
+                <!-- Iterar sobre las tecnologías y mostrar un badge por cada una -->
+                <span
+                  *ngFor="let tech of getTechnologyBadges(project.technologies)"
+                  class="badge bg-primary me-2"
+                >
+                  {{ tech }}
+                </span>
+              </div>
             </li>
-            <li>
-              <strong>Client</strong> {{ detailsData?.projectInfo?.client }}
-            </li>
-            <li>
-              <strong>Project date</strong> {{ detailsData?.projectInfo?.date }}
-            </li>
+            <li><strong>Client</strong> {{ project.client }}</li>
+            <li><strong>Project date</strong> {{ project.date }}</li>
             <li>
               <strong>Project URL</strong>
-              <a href="{{ detailsData?.projectInfo?.url }}">{{
-                detailsData?.projectInfo?.url
-              }}</a>
+              <a href="{{ project.url }}">{{ project.url }}</a>
             </li>
           </ul>
         </div>
@@ -45,7 +48,7 @@
       <div class="col-lg-6">
         <p-carousel
           [circular]="true"
-          [value]="detailsData?.images"
+          [value]="project.carrousel_images"
           [numVisible]="1"
           [numScroll]="1"
         >
