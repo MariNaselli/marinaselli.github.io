@@ -1,16 +1,14 @@
-<app-header></app-header>
+<ng-container *ngIf="!isLoading">
+  <layout-header></layout-header>
+  <router-outlet></router-outlet>
+  <layout-footer></layout-footer>
+  <a
+    href="#"
+    id="scroll-top"
+    class="scroll-top d-flex align-items-center justify-content-center"
+    ><i class="bi bi-arrow-up-short"></i
+  ></a>
+</ng-container>
+<app-loader></app-loader>
 
-<app-main></app-main>
 
-<app-footer></app-footer>
-
-<!-- Scroll Top -->
-<a
-  href="#"
-  id="scroll-top"
-  class="scroll-top d-flex align-items-center justify-content-center"
-  ><i class="bi bi-arrow-up-short"></i
-></a>
-
-<!-- Preloader -->
-<div id="preloader"></div>

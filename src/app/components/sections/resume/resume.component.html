@@ -1,0 +1,50 @@
+<section id="resume" class="resume section">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p>{{ resumeData?.description }}</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Summary</h3>
+
+        <div class="resume-item pb-0">
+          <h4>{{ resumeData?.name }}</h4>
+          <p><em>{{ resumeData?.description }}</em></p>
+          <ul>
+            <li>{{ resumeData?.location }}</li>
+            <li>{{ resumeData?.phone }}</li>
+            <li>{{ resumeData?.email }}</li>
+          </ul>
+        </div>
+
+        <h3 class="resume-title">Educación</h3>
+
+        <div *ngFor="let edu of resumeData?.education" class="resume-item">
+          <h4>{{ edu.degree }}</h4>
+          <h5>{{ edu.year }}</h5>
+          <p><em>{{ edu.institution }}</em></p>
+          <p>{{ edu.details }}</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="resume-title">Experiencia Profesional</h3>
+
+        <div *ngFor="let exp of resumeData?.experience" class="resume-item">
+          <h4>{{ exp.position }}</h4>
+          <h5>{{ exp.year }}</h5>
+          <p><em>{{ exp.company }}</em></p>
+          <ul>
+            <li *ngFor="let resp of exp.responsibilities">{{ resp }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+

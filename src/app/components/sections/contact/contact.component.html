@@ -1,0 +1,53 @@
+
+<section id="contact" class="contact section">
+  
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>{{ contactData?.title }}</h2>
+    <p>{{ contactData?.description }}</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gy-5">
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              
+              <h3>{{ contactData?.address.title }}</h3>
+              <a [href]="locationLink" target="_blank" style="color: #4e4e4e">{{ contactData?.address.location }}</a>
+            </div>
+          </div>
+        </div>
+        <!-- End Info Item -->
+
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>{{ contactData?.phone.title }}</h3>
+              <a [href]="whatsappLink" target="_blank" style="color: #4e4e4e">{{ contactData?.phone.number }}</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- End Info Item -->
+
+        <div class="col-lg-4">
+          <div class="info-item d-flex align-items-center">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>{{ contactData?.email.title }}</h3>
+              <a [href]="emailLink" target="_blank">
+                {{ contactData?.email.email }}
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- End Info Item -->
+      </div>
+    </div>
+  </div>
+</section>

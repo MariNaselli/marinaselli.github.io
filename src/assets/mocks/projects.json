@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Argentina Programa",
+    "technologies": ["Angular", "MySQL", "JAVA"],
+    "description_short": "Una aplicación web interactiva desarrollada con Angular para presentar mi portfolio profesional, destacando mis proyectos, habilidades y experiencia de manera dinámica y responsiva.",
+    "description_long": "Este proyecto es una aplicación web desarrollada con Angular, diseñada para mostrar mi portfolio profesional de una manera interactiva y moderna. La aplicación presenta una interfaz de usuario limpia y responsiva que resalta mis habilidades, proyectos y experiencia.\n\nEntre las características principales de la aplicación se incluyen:\n\nVista interactiva de proyectos: Una galería dinámica que permite a los usuarios explorar los diferentes proyectos en los que he trabajado, con detalles sobre tecnologías, retos resueltos y resultados alcanzados.\nSección de contacto: Un formulario sencillo para facilitar la comunicación directa conmigo, permitiendo consultas o colaboraciones.\nDiseño responsivo: Adaptación perfecta a dispositivos móviles y de escritorio para asegurar una excelente experiencia de usuario en todas las plataformas.\nAnimaciones y transiciones suaves: Uso de animaciones para una navegación fluida y atractiva, mejorando la experiencia de interacción con el sitio.\nEste portfolio no solo refleja mis habilidades en el desarrollo front-end con Angular, sino también mi capacidad para crear aplicaciones interactivas, fáciles de navegar y visualmente atractivas. La aplicación está optimizada para rendimiento, accesibilidad y una experiencia de usuario intuitiva.",
+    "client": "ASU Company",
+    "date": "01 March, 2020",
+    "url": "www.example.com",
+    "project_name": "argentina-programa",
+    "carrousel_images": [
+      "assets/img/portfolio/app-1.jpg",
+      "assets/img/portfolio/product-1.jpg",
+      "assets/img/portfolio/branding-1.jpg",
+      "assets/img/portfolio/books-1.jpg"
+    ]
+  },
+  {
+    "title": "Product 1",
+    "technologies": ["Angular", "SQL", "Python"],
+    "description_short": "Un producto innovador que resuelve problemas de gestión de inventarios con tecnología avanzada.",
+    "description_long": "Este producto es una solución para la gestión de inventarios en empresas de mediano y gran tamaño. Utiliza una interfaz amigable y fácil de usar que permite a los usuarios realizar seguimientos en tiempo real. Además, cuenta con integraciones de análisis de datos para tomar decisiones informadas.",
+    "client": "Tech Solutions",
+    "date": "15 April, 2021",
+    "url": "www.example-product1.com",
+    "project_name": "product-1",
+    "carrousel_images": [
+      "assets/img/portfolio/product-1.jpg",
+      "assets/img/portfolio/app-2.jpg",
+      "assets/img/portfolio/books-2.jpg"
+    ]
+  },
+  {
+    "title": "Branding 1",
+    "technologies": ["Angular"],
+    "description_short": "Un proyecto de rebranding para una marca emergente en el sector tecnológico.",
+    "description_long": "Este proyecto consistió en el rediseño de la identidad visual de la empresa, creando un logo moderno, un esquema de colores fresco y un estilo visual que refleja la innovación y la tecnología. Se implementaron diseños consistentes a través de todos los medios y plataformas, desde la página web hasta las redes sociales.",
+    "client": "Creative Agency",
+    "date": "10 June, 2022",
+    "url": "www.example-branding1.com",
+    "project_name": "branding-1",
+    "carrousel_images": [
+      "assets/img/portfolio/branding-1.jpg",
+      "assets/img/portfolio/product-2.jpg",
+      "assets/img/portfolio/books-3.jpg"
+    ]
+  },
+  {
+    "title": "Books 1",
+    "technologies": ["SQL"],
+    "description_short": "Una plataforma para la venta y distribución de libros electrónicos de autores independientes.",
+    "description_long": "Este proyecto es una plataforma en línea donde los autores pueden subir sus libros electrónicos, fijar precios y distribuirlos a un público global. La aplicación incluye opciones de pago seguras y herramientas de promoción para autores. Además, permite a los lectores encontrar libros por género, autor o popularidad.",
+    "client": "Indie Books",
+    "date": "20 August, 2021",
+    "url": "www.example-books1.com",
+    "project_name": "books-1",
+    "carrousel_images": [
+      "assets/img/portfolio/books-1.jpg",
+      "assets/img/portfolio/app-3.jpg",
+      "assets/img/portfolio/branding-2.jpg"
+    ]
+  },
+  {
+    "title": "App 2",
+    "technologies": ["Python"],
+    "description_short": "Una app móvil que ayuda a las personas a gestionar sus hábitos diarios para una vida más saludable.",
+    "description_long": "Esta aplicación permite a los usuarios crear, seguir y cumplir objetivos relacionados con la salud y el bienestar. Desde el seguimiento de la actividad física hasta la meditación, la app ofrece una interfaz fácil de usar y una visión clara del progreso personal.",
+    "client": "Health Tech",
+    "date": "12 September, 2021",
+    "url": "www.example-app2.com",
+    "project_name": "app-2",
+    "carrousel_images": [
+      "assets/img/portfolio/app-2.jpg",
+      "assets/img/portfolio/product-3.jpg",
+      "assets/img/portfolio/branding-3.jpg"
+    ]
+  }
+]

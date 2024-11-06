@@ -1,0 +1,9 @@
+<section id="home" class="hero section dark-background">
+  <img [src]="heroData?.imageSrc" [alt]="heroData?.imageAlt" data-aos="fade-in" />
+  <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+    <h2>{{ heroData?.title }}</h2>
+    <p>
+      <span #typedElement class="typed"></span> <!-- Sin atributo data-typed-items -->
+    </p>
+  </div>
+</section>

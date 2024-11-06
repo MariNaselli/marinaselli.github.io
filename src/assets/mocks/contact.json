@@ -1,0 +1,18 @@
+{
+  "contact": {
+    "title": "Contacto",
+    "description": "",
+    "address": {
+      "title": "Dirección",
+      "location": "Tarragona, España"
+    },
+    "phone": {
+      "title": "Teléfono",
+      "number": "+54 9 351 7437212"
+    },
+    "email": {
+      "title": "Email",
+      "email": "nasellimariana@gmail.com"
+    }
+  }
+}
