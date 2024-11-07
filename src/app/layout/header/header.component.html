@@ -10,13 +10,16 @@
     </a> -->
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a [routerLink]="['/']">Home</a></li>
-        <li><a [routerLink]="['/about']">About</a></li>
-        <li><a [routerLink]="['/projet']">Portfolio</a></li>
-        <li><a [routerLink]="['/contact']">Contact</a></li>
+        <li><a [routerLink]="['/']" (click)="toggleBodyClass()">Home</a></li>
+        <li><a [routerLink]="['/about']" (click)="toggleBodyClass()">About</a></li>
+        <li><a [routerLink]="['/projet']" (click)="toggleBodyClass()">Portfolio</a></li>
+        <li><a [routerLink]="['/contact']" (click)="toggleBodyClass()">Contact</a></li>
       </ul>
-      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list" 
+      [ngClass]="menuOpen ? 'bi-x' : 'bi-list'"
+      (click)="toggleBodyClass()"></i>
     </nav>
+
 
     <!-- <nav id="navmenu" class="navmenu">
       <ul>
