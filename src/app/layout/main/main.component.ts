@@ -24,8 +24,8 @@ import { ViewportScroller } from '@angular/common';
     PricingComponent,
     FaqComponent,
     TestimonialsComponent,
-    ContactComponent
-],
+    ContactComponent,
+  ],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css',
 })
@@ -33,10 +33,9 @@ export class MainComponent {
   constructor(private viewportScroller: ViewportScroller) {}
 
   ngOnInit(): void {
-    this.scrollToSection('main');
-  }
-
-  scrollToSection(sectionId: string): void {
-    this.viewportScroller.scrollToAnchor(sectionId);
+    // Hacer scroll al inicio de la página
+    setTimeout(() => {
+      this.viewportScroller.scrollToPosition([0, 0]);
+    }, 200);
   }
 }

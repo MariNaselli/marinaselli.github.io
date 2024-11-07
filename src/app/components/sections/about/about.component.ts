@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { AboutService } from './services/about.service'; // Importar el servicio
 import { CommonModule } from '@angular/common';
+import { ResumeComponent } from "../resume/resume.component";
 
 @Component({
   selector: 'section-about',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ResumeComponent],
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css'],
 })
