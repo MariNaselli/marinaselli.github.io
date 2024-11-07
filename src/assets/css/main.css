@@ -715,6 +715,9 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero {
+    min-height: calc(-95px + 92vh);
+  }
   .hero h2 {
     font-size: 32px;
   }
