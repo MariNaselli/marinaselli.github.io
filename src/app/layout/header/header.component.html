@@ -2,7 +2,7 @@
   <div
     class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
   >
-    <a [routerLink]="['/']" fragment="home" class="logo d-flex align-items-center">
+    <a [routerLink]="['/']" fragment="home" (click)="scrollToSection('home')"class="logo d-flex align-items-center">
       <h1 class="sitename">Mariana Naselli</h1>
     </a>
 
