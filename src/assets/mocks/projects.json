@@ -1,5 +1,21 @@
 [
   {
+    "title": "Portfolio Personal",
+    "technologies": ["Angular", "HTML"],
+    "description_short": "Adaptación de un template HTML a Angular, utilizando componentes, enrutamiento, mocks y servicios",
+    "description_long": "Este proyecto es una adaptación de un template HTML estático al framework Angular, creado con el objetivo de ser utilizado como portfolio personal y como plataforma para poner en práctica mis habilidades de desarrollo. En este proyecto, he trabajado en varios aspectos técnicos, tales como:\n\n- **Adaptación de Template**: Comencé con un template HTML estándar y lo adapté completamente a Angular. Esto incluyó la conversión de archivos estáticos a componentes Angular, la integración de servicios y la implementación de funcionalidades dinámicas.\n\n- **Manejo de Mocks y Servicio**: Implementé *mocks* de datos para estructurar y definir los datos, gestionada mediante servicios Angular. Esto me permitió crear un flujo de datos eficiente y flexible.\n\n- **Manejo de Rutas**: Utilicé el sistema de enrutamiento de Angular para organizar las diferentes secciones del portfolio, facilitando la navegación entre componentes sin recargar la página.\n\n- **GitHub Pages**: El proyecto está desplegado en GitHub Pages, lo que me permite tener un portfolio accesible online.\n\n- **Prácticas de Desarrollo**: Este proyecto sirve como un espacio para aplicar y fortalecer mis conocimientos en Angular, aprendiendo sobre la estructura de la aplicación, el manejo de datos, las rutas y la implementación de servicios en un entorno real.",
+    "client": "Mariana Naselli",
+    "date": "Noviembre, 2024",
+    "url": "https://marinaselli.github.io/",
+    "project_name": "Portfolio Personal",
+    "carrousel_images": [
+      "assets/img/portfolio/app-1.jpg",
+      "assets/img/portfolio/product-1.jpg",
+      "assets/img/portfolio/branding-1.jpg",
+      "assets/img/portfolio/books-1.jpg"
+    ]
+  },
+  {
     "title": "Argentina Programa",
     "technologies": ["Angular", "MySQL", "JAVA"],
     "description_short": "Una aplicación web interactiva desarrollada con Angular para presentar mi portfolio profesional, destacando mis proyectos, habilidades y experiencia de manera dinámica y responsiva.",

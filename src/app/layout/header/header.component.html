@@ -11,9 +11,9 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a [routerLink]="['/']" (click)="toggleBodyClass()">Home</a></li>
-        <li><a [routerLink]="['/about']" (click)="toggleBodyClass()">About</a></li>
-        <li><a [routerLink]="['/projet']" (click)="toggleBodyClass()">Portfolio</a></li>
-        <li><a [routerLink]="['/contact']" (click)="toggleBodyClass()">Contact</a></li>
+        <li><a [routerLink]="['/about']" (click)="toggleBodyClass()">Sobre mi</a></li>
+        <li><a [routerLink]="['/projects']" (click)="toggleBodyClass()">Portfolio</a></li>
+        <li><a [routerLink]="['/contact']" (click)="toggleBodyClass()">Contacto</a></li>
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list" 
       [ngClass]="menuOpen ? 'bi-x' : 'bi-list'"
