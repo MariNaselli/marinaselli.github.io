@@ -1,0 +1,14 @@
+/* Estilos para los íconos de tecnologías */
+.technologies {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tech-icon {
+    margin: 0 0.5rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  
+  
