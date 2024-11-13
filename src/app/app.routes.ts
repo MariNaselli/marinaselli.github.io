@@ -9,7 +9,7 @@ import { HeroComponent } from './components/sections/hero/hero.component';
 export const routes: Routes = [
   { path: '', component: HeroComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'projet', component: ProjectListComponent },
+  { path: 'projects', component: ProjectListComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'project/:project_name', component: ProjectDetailsComponent },
 ];

@@ -1,28 +1,31 @@
 {
   "about": {
     "name": "Mariana Naselli",
-    "profile": "full stack developer",
+    "profile": "Full Stack Developer Jr.",
     "email": "nasellimariana@gmail.com",
-    "phone": "(617) 557-0089",
+    "phone": "+34 672 656 574",
     "image": "assets/img/profile-img.jpg",
     "skills": [
       {
-        "name": "HTML",
+        "name": "Autoaprendizaje",
         "percentage": "100"
       },
       {
-        "name": "CSS",
-        "percentage": "90"
+        "name": "Resolución de problemas",
+        "percentage": "100"
       },
       {
-        "name": "JavaScript",
-        "percentage": "75"
+        "name": "Escucha activa",
+        "percentage": "100"
       },
       {
-        "name": "Photoshop",
-        "percentage": "55"
+        "name": "Organización",
+        "percentage": "100"
       }
     ],
-    "aboutMe": "¡Hola! Soy Mariana, una apasionada desarrolladora de software con un amor especial por los perros. Mi experiencia abarca diversas tecnologías, y me encanta resolver problemas a través de la programación. Siempre estoy en busca de nuevas oportunidades para aprender y crecer en el mundo del desarrollo. Cuando no estoy escribiendo código, puedes encontrarme disfrutando de la compañía de mis amigos peludos. ¡Bienvenidos a mi portfolio!"
+    "aboutMe": "Soy estudiante de desarrollo de software, apasionada por resolver problemas y en constante búsqueda de aprendizaje. Mi experiencia en administración ha fortalecido mi enfoque analítico y mi capacidad para gestionar datos, cualidades que se integran bien con mi interés por la programación. Estoy en busca de oportunidades para aplicar mis competencias en proyectos significativos y continuar creciendo en el campo de la programación. ¡Bienvenidos a mi portfolio!."
   }
 }
+ 
+
+

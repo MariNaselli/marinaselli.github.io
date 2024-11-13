@@ -1,0 +1,33 @@
+/* Contenedor para los íconos de tecnología */
+.technologies {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los íconos se ajusten en varias filas si es necesario */
+    justify-content: center; /* Centra los íconos horizontalmente */
+    gap: 10px; /* Espacio entre los íconos */
+    margin: 0 auto; /* Centra el contenedor */
+    max-width: 100%; /* Asegura que no se sobrepasen del ancho disponible */
+  }
+  
+  /* Estilo para los íconos */
+  .tech-icon {
+    width: 40px; /* Tamaño fijo de los íconos */
+    height: 40px; /* Tamaño fijo de los íconos */
+    max-width: 100%; /* Asegura que los íconos se adapten al espacio disponible */
+    flex-shrink: 0; /* Evita que los íconos se encojan más de lo necesario */
+  }
+  
+  /* Ajustes para pantallas más pequeñas */
+  @media (max-width: 576px) {
+    .tech-icon {
+      width: 30px; /* Tamaño reducido para pantallas pequeñas */
+      height: 30px; /* Tamaño reducido para pantallas pequeñas */
+    }
+  
+    .technologies {
+      gap: 15px; /* Mayor espacio entre los íconos en pantallas pequeñas */
+    }
+  }
+  
+  
+  
+  

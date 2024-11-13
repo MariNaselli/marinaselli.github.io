@@ -21,7 +21,7 @@ export class ProjectService {
     const uniqueTechnologies = Array.from(new Set(allTechnologies)); // El Set garantiza tecnologías únicas
 
     // Agregamos "All" al principio de la lista
-    return ['All', ...uniqueTechnologies];
+    return ['Todos', ...uniqueTechnologies];
   }
 
   // Método para obtener los detalles de un proyecto por project_name

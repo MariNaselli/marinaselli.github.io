@@ -5,16 +5,16 @@ import { ProjectService } from '../../services/project.service';
 import { Project } from '../../models/project.model';
 
 @Component({
-  selector: 'section-portfolio',
+  selector: 'section-projects',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './project-list.component.html',
 })
 export class ProjectListComponent implements OnInit {
   projectsList: Project[] = [];
-  filteredPortfolio: Project[] = [];
+  filteredProject: Project[] = [];
   filters: string[] = [];
-  currentFilter: string = 'All';
+  currentFilter: string = 'Todos';
 
   constructor(private projectService: ProjectService, private router: Router) {}
 
@@ -26,7 +26,7 @@ export class ProjectListComponent implements OnInit {
       this.filters = this.projectService.getUniqueTechnologies(projectsList);
 
       // Mostrar todos los elementos por defecto
-      this.filteredPortfolio = projectsList;
+      this.filteredProject = projectsList;
     });
   }
 
@@ -34,10 +34,10 @@ export class ProjectListComponent implements OnInit {
   setFilter(technology: string): void {
     this.currentFilter = technology;
 
-    if (technology === 'All') {
-      this.filteredPortfolio = this.projectsList; // Muestra todos los proyectos si la opción es 'All'
+    if (technology === 'Todos') {
+      this.filteredProject = this.projectsList; // Muestra todos los proyectos si la opción es 'All'
     } else {
-      this.filteredPortfolio = this.projectsList.filter(
+      this.filteredProject = this.projectsList.filter(
         (item) => item.technologies.includes(technology) // Filtra por tecnología presente en el array
       );
     }
