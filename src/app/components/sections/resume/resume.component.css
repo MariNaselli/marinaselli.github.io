@@ -1,4 +1,8 @@
 /* Contenedor para los íconos de tecnología */
+.text-justify {
+    text-align: justify;
+  }
+  
 .technologies {
     display: flex;
     flex-wrap: wrap; /* Permite que los íconos se ajusten en varias filas si es necesario */

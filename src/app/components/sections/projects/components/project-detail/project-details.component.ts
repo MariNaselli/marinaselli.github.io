@@ -9,6 +9,7 @@ import { ActivatedRoute } from '@angular/router';
   standalone: true,
   imports: [CarouselModule],
   templateUrl: './project-details.component.html',
+  styleUrls: ['./project-details.component.css'],
 })
 export class ProjectDetailsComponent implements OnInit {
   project: Project = new Project(); // Cambiamos el tipo a Project o undefined
