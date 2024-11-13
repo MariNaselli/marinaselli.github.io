@@ -50,7 +50,7 @@
           <h4>{{ edu.degree }}</h4>
           <h5>{{ edu.year }}</h5>
           <p><em>{{ edu.institution }}</em></p>
-          <p>{{ edu.details }}</p>
+          <p class="text-justify">{{ edu.details }}</p>
         </div>
       </div>
 
@@ -62,7 +62,7 @@
           <h5>{{ exp.year }}</h5>
           <p><em>{{ exp.company }}</em></p>
           <ul>
-            <li *ngFor="let resp of exp.responsibilities">{{ resp }}</li>
+            <li class="text-justify" *ngFor="let resp of exp.responsibilities">{{ resp }}</li>
           </ul>
         </div>
       </div>

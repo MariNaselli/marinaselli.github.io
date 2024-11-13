@@ -9,6 +9,8 @@ import { Project } from '../../models/project.model';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './project-list.component.html',
+  styleUrls: ['./project-list.component.css'],
+  
 })
 export class ProjectListComponent implements OnInit {
   projectsList: Project[] = [];
