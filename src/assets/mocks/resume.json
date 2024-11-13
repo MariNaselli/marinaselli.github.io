@@ -1,43 +1,68 @@
 {
   "resume": {
-    "name": "Ulises Dascalakis",
-    "description": "Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.",
-    "location": "Portland par 127, Orlando, FL",
-    "phone": "(123) 456-7891",
-    "email": "alice.barkley-example.com",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Angular",
+      "Bootstrap",
+      "Node.js",
+      "Git",
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "SQL",
+      "C#",
+      "NET",
+      "MAUI"
+    ],
     "education": [
       {
-        "degree": "Master of Fine Arts & Graphic Design",
-        "year": "2015 - 2016",
-        "institution": "Rochester Institute of Technology, Rochester, NY",
-        "details": "Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit."
+        "degree": "Plataforma de educación en línea",
+        "year": "2020 a PRESENTE",
+        "institution": "Platzi",
+        "details": ""
       },
       {
-        "degree": "Bachelor of Fine Arts & Graphic Design",
-        "year": "2010 - 2014",
-        "institution": "Rochester Institute of Technology, Rochester, NY",
-        "details": "Quia nobis sequi est occaecati aut."
+        "degree": "Percorso Programmazione APP",
+        "year": "2024",
+        "institution": "Train for Digital, Polo Universitario Città di Prato",
+        "details": "He adquirido competencias en la programación funcional en C#, bases de datos relacionales, lenguaje SQL, implementación de aplicaciones con C# y .NET. Realicé una práctica profesional de dos semanas y media en la empresa Remira en Florencia, Italia, donde participé en un proyecto de desarrollo de una aplicación web utilizando MAUI."
+      },
+      {
+        "degree": "Web Full Stack Junior",
+        "year": "2022 - 2023",
+        "institution": "Argentina Programa",
+        "details": "Desarrollo de una aplicación web centrada en la creación de un portafolio web personalizado. Uso de Angular para el front-end y Spring Boot para el backend, con una arquitectura distribuida para la comunicación entre el front-end y la base de datos MySQL para la gestión de datos."
+      },
+      {
+        "degree": "Martillero Público y Corredor de Comercio",
+        "year": "2008 - 2014",
+        "institution": "Instituto CEBA",
+        "details": ""
       }
     ],
     "experience": [
       {
-        "position": "Senior graphic design specialist",
-        "year": "2019 - Present",
-        "company": "Experion, New York, NY",
+        "position": "Colaboración en un proyecto de mejora del front-end",
+        "year": "07-2023 - 10-2023",
+        "company": "Daskalos Solutions",
         "responsibilities": [
-          "Lead in the design, development, and implementation of the graphic, layout, and production communication materials",
-          "Delegate tasks to the 7 members of the design team",
-          "Supervise the assessment of all graphic materials"
+          "Actualizaciones en una aplicación con tecnología Angular",
+          "Adquisición de datos de una API RESTful",
+          "Visualización de los datos obtenidos de la API"
         ]
       },
       {
-        "position": "Graphic design specialist",
-        "year": "2017 - 2018",
-        "company": "Stepping Stone Advertising, New York, NY",
+        "position": "Administrativa",
+        "year": "10-2015 - 10-2023",
+        "company": "Administración José Peretti/Pietro S.A",
         "responsibilities": [
-          "Developed numerous marketing programs",
-          "Managed up to 5 projects or tasks at a given time",
-          "Created 4+ design presentations and proposals a month"
+          "Gestión integrada de la administración de condominios e inmuebles",
+          "Liquidación precisa de gastos condominiales y alquileres utilizando sistemas especializados y herramientas como Excel para realizar cálculos y generar informes",
+          "Gestión de operaciones bancarias y pagos a proveedores",
+          "Organización y mantenimiento de un sistema de archivo documental",
+          "Digitalización de documentación y colaboración en la implementación de un nuevo sistema de liquidación de gastos condominiales, con especial atención en supervisar la precisión de los datos migrados para garantizar una transición sin problemas"
         ]
       }
     ]

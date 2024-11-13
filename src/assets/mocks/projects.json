@@ -9,10 +9,8 @@
     "url": "https://marinaselli.github.io/",
     "project_name": "Portfolio Personal",
     "carrousel_images": [
-      "assets/img/portfolio/app-1.jpg",
-      "assets/img/portfolio/product-1.jpg",
-      "assets/img/portfolio/branding-1.jpg",
-      "assets/img/portfolio/books-1.jpg"
+      "assets/img/portfolio/portfolio-angular.jpg",
+      "assets/img/portfolio/portfolio-angular-2.jpg"
     ]
   },
   {
