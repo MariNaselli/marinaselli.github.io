@@ -14,19 +14,24 @@
     ]
   },
   {
-    "title": "Argentina Programa",
-    "technologies": ["Angular", "MySQL", "JAVA"],
-    "description_short": "Una aplicación web interactiva desarrollada con Angular para presentar mi portfolio profesional, destacando mis proyectos, habilidades y experiencia de manera dinámica y responsiva.",
-    "description_long": "Este proyecto es una aplicación web desarrollada con Angular, diseñada para mostrar mi portfolio profesional de una manera interactiva y moderna. La aplicación presenta una interfaz de usuario limpia y responsiva que resalta mis habilidades, proyectos y experiencia.\n\nEntre las características principales de la aplicación se incluyen:\n\nVista interactiva de proyectos: Una galería dinámica que permite a los usuarios explorar los diferentes proyectos en los que he trabajado, con detalles sobre tecnologías, retos resueltos y resultados alcanzados.\nSección de contacto: Un formulario sencillo para facilitar la comunicación directa conmigo, permitiendo consultas o colaboraciones.\nDiseño responsivo: Adaptación perfecta a dispositivos móviles y de escritorio para asegurar una excelente experiencia de usuario en todas las plataformas.\nAnimaciones y transiciones suaves: Uso de animaciones para una navegación fluida y atractiva, mejorando la experiencia de interacción con el sitio.\nEste portfolio no solo refleja mis habilidades en el desarrollo front-end con Angular, sino también mi capacidad para crear aplicaciones interactivas, fáciles de navegar y visualmente atractivas. La aplicación está optimizada para rendimiento, accesibilidad y una experiencia de usuario intuitiva.",
-    "client": "ASU Company",
-    "date": "01 March, 2020",
-    "url": "https://www.daskalos.com.ar",
-    "project_name": "argentina-programa",
+    "title": " Proyecto Argentina Programa",
+    "technologies": ["Angular", "MySQL", "Spring Boot", "Bootstrap", "Java"],
+    "description_short": "Portfolio web editable con autenticación, desarrollado con Angular, Bootstrap, Spring Boot y MySQL.",
+    "description_long":"Este proyecto, desarrollado como parte del programa 'Argentina Programa', es una aplicación web diseñada para funcionar como un portfolio profesional, combinando un diseño atractivo con funcionalidades dinámicas. La finalidad del proyecto es ofrecer una plataforma editable que actúe como una carta de presentación profesional en línea y permita gestionar fácilmente el contenido. La aplicación cuenta con una landing page pública que muestra mi currículum, experiencia profesional, habilidades y proyectos de forma organizada, con acceso público para cualquier visitante y un diseño adaptado para ofrecer una experiencia agradable y profesional. Además, incluye un modo de edición al que se accede mediante un botón 'Ingresar'. Este modo está protegido por un sistema de autenticación y permite a los usuarios autorizados editar, agregar o eliminar información, con las modificaciones reflejadas en tiempo real. En el backend, se implementaron servicios RESTful con Java y Spring Boot para la gestión del contenido y validaciones que aseguran la integridad de los datos. La información se almacena de forma segura en una base de datos MySQL, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar). El frontend fue desarrollado con Angular y Bootstrap para garantizar un diseño responsive, adaptado a distintos dispositivos. Este proyecto representa un desafío integral que me permitió aplicar conocimientos de desarrollo web full-stack, integración de frontend y backend, manejo de bases de datos y control de versiones con Git. Actualmente, el proyecto está disponible en la web como una demostración práctica de mis habilidades en desarrollo de software.",
+    "client": "Argentina Programa",
+    "date": "Noviembre, 2021 - Marzo, 2023",
+    "url": "https://portfolio-web-2559b.web.app/",
+    "project_name": "Mi primer proyecto",
     "carrousel_images": [
-      "assets/img/portfolio/app-1.jpg",
-      "assets/img/portfolio/product-1.jpg",
-      "assets/img/portfolio/branding-1.jpg",
-      "assets/img/portfolio/books-1.jpg"
+      "assets/img/portfolio/1.png",
+      "assets/img/portfolio/2.png",
+      "assets/img/portfolio/3.png",
+      "assets/img/portfolio/4.png",
+      "assets/img/portfolio/5.png",
+      "assets/img/portfolio/6.png",
+      "assets/img/portfolio/7.png",
+      "assets/img/portfolio/8.png",
+      "assets/img/portfolio/9.png"
     ]
   },
   {
