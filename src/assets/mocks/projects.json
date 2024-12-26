@@ -3,10 +3,11 @@
     "title": "Portfolio Personal",
     "technologies": ["Angular", "HTML"],
     "description_short": "Adaptación de un template HTML a Angular, utilizando componentes, enrutamiento, mocks y servicios",
-    "description_long": "Este proyecto es una adaptación de un template HTML estático al framework Angular, creado con el objetivo de ser utilizado como portfolio personal y como plataforma para poner en práctica mis habilidades de desarrollo. En este proyecto, he trabajado en varios aspectos técnicos, tales como:\n\n- **Adaptación de Template**: Comencé con un template HTML estándar y lo adapté completamente a Angular. Esto incluyó la conversión de archivos estáticos a componentes Angular, la integración de servicios y la implementación de funcionalidades dinámicas.\n\n- **Manejo de Mocks y Servicio**: Implementé *mocks* de datos para estructurar y definir los datos, gestionada mediante servicios Angular. Esto me permitió crear un flujo de datos eficiente y flexible.\n\n- **Manejo de Rutas**: Utilicé el sistema de enrutamiento de Angular para organizar las diferentes secciones del portfolio, facilitando la navegación entre componentes sin recargar la página.\n\n- **GitHub Pages**: El proyecto está desplegado en GitHub Pages, lo que me permite tener un portfolio accesible online.\n\n- **Prácticas de Desarrollo**: Este proyecto sirve como un espacio para aplicar y fortalecer mis conocimientos en Angular, aprendiendo sobre la estructura de la aplicación, el manejo de datos, las rutas y la implementación de servicios en un entorno real.",
+    "description_long": "Este proyecto es una adaptación de un template HTML estático al framework Angular, creado con el objetivo de ser utilizado como portfolio personal y como plataforma para poner en práctica mis habilidades de desarrollo. En este proyecto, he trabajado en varios aspectos técnicos, tales como: Adaptación de Template: Comencé con un template HTML estándar y lo adapté completamente a Angular. Esto incluyó la conversión de archivos estáticos a componentes Angular, la integración de servicios y la implementación de funcionalidades dinámicas. Manejo de Mocks y Servicio: Implementé mocks de datos para estructurar y definir los datos, gestionada mediante servicios Angular. Esto me permitió crear un flujo de datos eficiente y flexible. Manejo de Rutas: Utilicé el sistema de enrutamiento de Angular para organizar las diferentes secciones del portfolio, facilitando la navegación entre componentes sin recargar la página. GitHub Pages: El proyecto está desplegado en GitHub Pages, lo que me permite tener un portfolio accesible online. Prácticas de Desarrollo: Este proyecto sirve como un espacio para aplicar y fortalecer mis conocimientos en Angular, aprendiendo sobre la estructura de la aplicación, el manejo de datos, las rutas y la implementación de servicios en un entorno real.",
     "client": "Mariana Naselli",
     "date": "Noviembre, 2024",
     "url": "https://marinaselli.github.io/",
+    "url_github": "https://github.com/MariNaselli/marinaselli.github.io",
     "project_name": "Portfolio Personal",
     "carrousel_images": [
       "assets/img/portfolio/portfolio-angular.jpg",
@@ -14,13 +15,14 @@
     ]
   },
   {
-    "title": " Proyecto Argentina Programa",
-    "technologies": ["Angular", "MySQL", "Spring Boot", "Bootstrap", "Java"],
-    "description_short": "Portfolio web editable con autenticación, desarrollado con Angular, Bootstrap, Spring Boot y MySQL.",
-    "description_long":"Este proyecto, desarrollado como parte del programa 'Argentina Programa', es una aplicación web diseñada para funcionar como un portfolio profesional, combinando un diseño atractivo con funcionalidades dinámicas. La finalidad del proyecto es ofrecer una plataforma editable que actúe como una carta de presentación profesional en línea y permita gestionar fácilmente el contenido. La aplicación cuenta con una landing page pública que muestra mi currículum, experiencia profesional, habilidades y proyectos de forma organizada, con acceso público para cualquier visitante y un diseño adaptado para ofrecer una experiencia agradable y profesional. Además, incluye un modo de edición al que se accede mediante un botón 'Ingresar'. Este modo está protegido por un sistema de autenticación y permite a los usuarios autorizados editar, agregar o eliminar información, con las modificaciones reflejadas en tiempo real. En el backend, se implementaron servicios RESTful con Java y Spring Boot para la gestión del contenido y validaciones que aseguran la integridad de los datos. La información se almacena de forma segura en una base de datos MySQL, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar). El frontend fue desarrollado con Angular y Bootstrap para garantizar un diseño responsive, adaptado a distintos dispositivos. Este proyecto representa un desafío integral que me permitió aplicar conocimientos de desarrollo web full-stack, integración de frontend y backend, manejo de bases de datos y control de versiones con Git. Actualmente, el proyecto está disponible en la web como una demostración práctica de mis habilidades en desarrollo de software.",
-    "client": "Argentina Programa",
-    "date": "Noviembre, 2021 - Marzo, 2023",
+    "title": "Proyecto Argentina Programa y su evolución",
+    "technologies": ["Angular", "MySQL", "Spring Boot", "Bootstrap", "Java", "Node.js", "NestJS" ],
+    "description_short": "Portfolio web editable con autenticación, desarrollado con Angular, Bootstrap, Spring Boot y MySQL evolucionado a una red de portfolios en Node.js con NestJS.",
+    "description_long":"Este proyecto comenzó como parte del programa Argentina Programa, diseñado originalmente como un portfolio profesional editable utilizando para el frontend Angular y Bootstrap, para el backend Spring Boot con Java y base de datos MySQL. Con el tiempo, evolucioné el proyecto para adaptarlo a nuevas tecnologías y mejorar tanto su funcionalidad como la experiencia del usuario. Realicé mejoras en la autenticación y acceso: Implementé un sistema de autenticación más seguro. Agregué la posibilidad de crear cuentas nuevas, eliminando la dependencia de credenciales hardcodeadas. Aunque la recuperación de contraseñas aún no está disponible, está planificada para futuras versiones. Transformé el proyecto en una red de perfiles profesionales. La página principal muestra tarjetas con fotos de perfil, nombres y acceso al portfolio de cada usuario. Migración tecnológica: Backend migrado de Spring Boot a Node.js con NestJS. Implementación en la web: Utilicé servicios gratuitos como Firebase, Render y Clever Cloud para alojar la aplicación, asegurando accesibilidad y reducción de costos. Este proyecto no solo funciona como un portfolio profesional editable, sino también como una red que conecta perfiles profesionales.",
+    "client": "Argentina Programa, Mariana Naselli",
+    "date": "Nov, 2021 - Mar, 2023 / Nov 2024",
     "url": "https://portfolio-web-2559b.web.app/",
+    "url_github":"https://github.com/MariNaselli/portfolio-FrontEnd, https://github.com/MariNaselli/portfolio-BackEnd, https://github.com/MariNaselli/portfolio-backend-nest", 
     "project_name": "Mi primer proyecto",
     "carrousel_images": [
       "assets/img/portfolio/1.png",
@@ -33,65 +35,6 @@
       "assets/img/portfolio/8.png",
       "assets/img/portfolio/9.png"
     ]
-  },
-  {
-    "title": "Product 1",
-    "technologies": ["Angular", "SQL", "Python"],
-    "description_short": "Un producto innovador que resuelve problemas de gestión de inventarios con tecnología avanzada.",
-    "description_long": "Este producto es una solución para la gestión de inventarios en empresas de mediano y gran tamaño. Utiliza una interfaz amigable y fácil de usar que permite a los usuarios realizar seguimientos en tiempo real. Además, cuenta con integraciones de análisis de datos para tomar decisiones informadas.",
-    "client": "Tech Solutions",
-    "date": "15 April, 2021",
-    "url": "https://www.daskalos.com.ar",
-    "project_name": "product-1",
-    "carrousel_images": [
-      "assets/img/portfolio/product-1.jpg",
-      "assets/img/portfolio/app-2.jpg",
-      "assets/img/portfolio/books-2.jpg"
-    ]
-  },
-  {
-    "title": "Branding 1",
-    "technologies": ["Angular"],
-    "description_short": "Un proyecto de rebranding para una marca emergente en el sector tecnológico.",
-    "description_long": "Este proyecto consistió en el rediseño de la identidad visual de la empresa, creando un logo moderno, un esquema de colores fresco y un estilo visual que refleja la innovación y la tecnología. Se implementaron diseños consistentes a través de todos los medios y plataformas, desde la página web hasta las redes sociales.",
-    "client": "Creative Agency",
-    "date": "10 June, 2022",
-    "url": "https://www.daskalos.com.ar",
-    "project_name": "branding-1",
-    "carrousel_images": [
-      "assets/img/portfolio/branding-1.jpg",
-      "assets/img/portfolio/product-2.jpg",
-      "assets/img/portfolio/books-3.jpg"
-    ]
-  },
-  {
-    "title": "Books 1",
-    "technologies": ["SQL"],
-    "description_short": "Una plataforma para la venta y distribución de libros electrónicos de autores independientes.",
-    "description_long": "Este proyecto es una plataforma en línea donde los autores pueden subir sus libros electrónicos, fijar precios y distribuirlos a un público global. La aplicación incluye opciones de pago seguras y herramientas de promoción para autores. Además, permite a los lectores encontrar libros por género, autor o popularidad.",
-    "client": "Indie Books",
-    "date": "20 August, 2021",
-    "url": "https://www.daskalos.com.ar",
-    "project_name": "books-1",
-    "carrousel_images": [
-      "assets/img/portfolio/books-1.jpg",
-      "assets/img/portfolio/app-3.jpg",
-      "assets/img/portfolio/branding-2.jpg"
-    ]
-  },
-  {
-    "title": "App 2",
-    "technologies": ["Python"],
-    "description_short": "Una app móvil que ayuda a las personas a gestionar sus hábitos diarios para una vida más saludable.",
-    "description_long": "Esta aplicación permite a los usuarios crear, seguir y cumplir objetivos relacionados con la salud y el bienestar. Desde el seguimiento de la actividad física hasta la meditación, la app ofrece una interfaz fácil de usar y una visión clara del progreso personal.",
-    "client": "Health Tech",
-    "date": "12 September, 2021",
-    "url": "https://www.daskalos.com.ar",
-    "project_name": "app-2",
-    "carrousel_images": [
-      "assets/img/portfolio/app-2.jpg",
-      "assets/img/portfolio/product-3.jpg",
-      "assets/img/portfolio/branding-3.jpg"
-    ]
   }
+  
 ]
