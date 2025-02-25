@@ -7,6 +7,7 @@ export class Project {
   client: string = '';
   date: string = '';
   url: string = '';
+  url_github: string = '';
   carrousel_images: string[] = [];
 
   constructor() {
