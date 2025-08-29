@@ -1,4 +1,19 @@
 [
+   {
+    "title": "Desarrollo sitio web con Wordpress y Elementor",
+    "technologies": ["Wordpress", "Elementor"],
+    "description_short": "Configuración inicial de Wordpress, maquetación con Elementor, integración de funcionalidades y adaptación responsive",
+    "description_long": "",
+    "client": "SEPREVE Consultora",
+    "date": "Agosto, 2025",
+    "url": "https://consultorasepreve.com/",
+    "url_github": "",
+    "project_name": "Desarrollo web",
+    "carrousel_images": [
+      ""
+    
+    ]
+  },
   {
     "title": "Portfolio Personal",
     "technologies": ["Angular", "HTML"],
