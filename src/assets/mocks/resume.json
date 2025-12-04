@@ -45,8 +45,18 @@
     ],
     "experience": [
       {
+        "position": "d",
+        "year": "05-2025 - 08-2023",
+        "company": "Consultora SEPREVE",
+        "responsibilities": [
+          "Implementación técnica del sitio web funcional, asegurando la correcta puesta en marcha de la plataforma WordPress.",
+          "Trabajé en equipo con una diseñadora y una comunicadora, encargándome de la ejecución técnica y la funcionalidad del Front-end basada en los diseños provistos.",
+          "Uso de Page Builders y CMS: Desarrollo visual completo de la estructura y el contenido mediante el constructor Elementor, lo que permitió una creación rápida y eficiente del sitio."
+        ]
+      },
+      {
         "position": "Colaboración en un proyecto de mejora del front-end",
-        "year": "07-2023 - 10-2023",
+        "year": "05-2023 - 10-2023",
         "company": "Daskalos Solutions",
         "responsibilities": [
           "Actualizaciones en una aplicación con tecnología Angular",
