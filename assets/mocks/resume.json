@@ -8,7 +8,6 @@
       "Bootstrap",
       "Node.js",
       "Git",
-      "Java",
       "Spring Boot",
       "MySQL",
       "SQL",
@@ -18,17 +17,23 @@
       "OpenIa"
     ],
     "education": [
-      {
-        "degree": "Plataforma de educación en línea",
-        "year": "2020 a PRESENTE",
-        "institution": "Platzi",
+        {
+        "degree": "Tecnicatura en Programación",
+        "year": "En curso",
+        "institution": "Universidad Tecnológica Nacional - FRSN",
         "details": ""
       },
-      {
+       {
         "degree": "Percorso Programmazione APP",
         "year": "2024",
         "institution": "Train for Digital, Polo Universitario Città di Prato",
         "details": "He adquirido competencias en la programación funcional en C#, bases de datos relacionales, lenguaje SQL, implementación de aplicaciones con C# y .NET. Realicé una práctica profesional de dos semanas y media en la empresa Remira en Florencia, Italia, donde participé en un proyecto de desarrollo de una aplicación web utilizando MAUI."
+      },
+      {
+        "degree": "Plataforma de educación en línea",
+        "year": "2020 a 2023",
+        "institution": "Platzi",
+        "details": ""
       },
       {
         "degree": "Web Full Stack Junior",
@@ -45,8 +50,18 @@
     ],
     "experience": [
       {
+        "position": "d",
+        "year": "05-2025 - 08-2023",
+        "company": "Consultora SEPREVE",
+        "responsibilities": [
+          "Implementación técnica del sitio web funcional, asegurando la correcta puesta en marcha de la plataforma WordPress.",
+          "Trabajé en equipo con una diseñadora y una comunicadora, encargándome de la ejecución técnica y la funcionalidad del Front-end basada en los diseños provistos.",
+          "Uso de Page Builders y CMS: Desarrollo visual completo de la estructura y el contenido mediante el constructor Elementor, lo que permitió una creación rápida y eficiente del sitio."
+        ]
+      },
+      {
         "position": "Colaboración en un proyecto de mejora del front-end",
-        "year": "07-2023 - 10-2023",
+        "year": "05-2023 - 10-2023",
         "company": "Daskalos Solutions",
         "responsibilities": [
           "Actualizaciones en una aplicación con tecnología Angular",
