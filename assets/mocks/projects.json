@@ -1,5 +1,19 @@
 [
    {
+    "title": "Organizador de Archivos Inteligente con Python",
+    "technologies": ["Wordpress", "Elementor"],
+    "description_short": "Automatización en Python para la clasificación dinámica de archivos y monitoreo de directorios en tiempo real. Desarrollo de un script híbrido que realiza una organización inicial de archivos y mantiene una vigilancia activa de nuevos ingresos. El sistema clasifica archivos por extensión, genera carpetas automáticamente y protege la integridad de los datos mediante una lógica de prevención de duplicados y filtros de exclusión para archivos críticos", 
+    "description_long": "",
+    "client": "Proyecto Personal",
+    "date": "Enero, 2026",
+    "url": "https://https://github.com/MariNaselli/Proyecto-Organizador-Python/",
+    "project_name": "Proyecto-Organizador-Python",
+    "carrousel_images": [
+      "assets/img/portfolio/antes.png",
+      "assets/img/portfolio/despues.png"
+    ]
+  },
+   {
     "title": "Desarrollo sitio web con Wordpress y Elementor",
     "technologies": ["Wordpress", "Elementor"],
     "description_short": "Implementación y Soporte Técnico: Lideré la implementación técnica del sitio web funcional, asegurando la correcta puesta en marcha de la plataforma WordPress. Colaboración Interdisciplinaria: Trabajé en equipo con una diseñadora y una comunicadora, encargándome de la ejecución técnica y la funcionalidad del Front-end basada en los diseños provistos. Uso de Page Builders y CMS: Desarrollo visual completo de la estructura y el contenido mediante el constructor Elementor, lo que permitió una creación rápida y eficiente del sitio. Gestión de Desafíos: Adquisición de la experiencia de manera práctica y autodidacta, resolviendo desafíos de configuración y usabilidad durante el proceso de entrega al cliente.",
