@@ -1,37 +1,36 @@
 [
-   {
-    "title": "Organizador de Archivos Inteligente con Python",
+  {
+    "title": "Organizador de Archivos Inteligente",
     "technologies": ["Python", "Watchdog", "OS/Shutil"],
-    "description_short": "Automatización en Python para la clasificación dinámica de archivos y monitoreo de directorios en tiempo real", 
-    "description_long": "Desarrollo de un script híbrido que realiza una organización inicial de archivos y mantiene una vigilancia activa de nuevos ingresos. El sistema clasifica archivos por extensión, genera carpetas automáticamente y protege la integridad de los datos mediante una lógica de prevención de duplicados y filtros de exclusión para archivos críticos", 
+    "description_short": "Automatización en Python para la clasificación dinámica de archivos y monitoreo de directorios en tiempo real.",
+    "description_long": "Gestión Híbrida: Organiza archivos existentes al iniciar y mantiene vigilancia activa de nuevos ingresos. Infraestructura Dinámica: Genera automáticamente las carpetas de destino según la extensión del archivo. Integridad de Datos: Sistema de numeración secuencial para evitar sobrescritura en nombres duplicados. Filtros de Exclusión: Protección de archivos críticos y del código fuente para asegurar la estabilidad del entorno.",
     "client": "Proyecto Personal",
     "date": "Enero, 2026",
-    "url": "https://https://github.com/MariNaselli/Proyecto-Organizador-Python/",
+    "url": "https://github.com/MariNaselli/Proyecto-Organizador-Python/",
     "project_name": "Proyecto-Organizador-Python",
     "carrousel_images": [
       "assets/img/portfolio/antes.png",
       "assets/img/portfolio/despues.png"
     ]
   },
-   {
-    "title": "Desarrollo sitio web con Wordpress y Elementor",
+  {
+    "title": "Sitio Web SEPREVE Consultora",
     "technologies": ["Wordpress", "Elementor"],
-    "description_short": "Desarrollo sitio Web con Wordpress y Elementor .",
-    "description_long": "Implementación y Soporte Técnico: Lideré la implementación técnica del sitio web funcional, asegurando la correcta puesta en marcha de la plataforma WordPress. Colaboración Interdisciplinaria: Trabajé en equipo con una diseñadora y una comunicadora, encargándome de la ejecución técnica y la funcionalidad del Front-end basada en los diseños provistos. Uso de Page Builders y CMS: Desarrollo visual completo de la estructura y el contenido mediante el constructor Elementor, lo que permitió una creación rápida y eficiente del sitio. Gestión de Desafíos: Adquisición de la experiencia de manera práctica y autodidacta, resolviendo desafíos de configuración y usabilidad durante el proceso de entrega al cliente.",
+    "description_short": "Desarrollo y soporte técnico de plataforma web institucional mediante CMS WordPress.",
+    "description_long": "Implementación Técnica: Lideré la puesta en marcha de la plataforma asegurando funcionalidad y usabilidad. Colaboración Interdisciplinaria: Ejecución técnica del Front-end basada en diseños provistos por equipo de comunicación. Page Builders: Desarrollo visual y estructural completo mediante Elementor para una gestión de contenidos eficiente. Gestión de Desafíos: Resolución autodidacta de configuraciones críticas y optimización de entrega al cliente.",
     "client": "SEPREVE Consultora",
     "date": "Agosto, 2025",
     "url": "https://consultorasepreve.com/",
     "project_name": "Desarrollo web",
     "carrousel_images": [
       "assets/img/portfolio/sepreve.png"
-    
     ]
   },
   {
     "title": "Portfolio Personal",
     "technologies": ["Angular", "HTML"],
-    "description_short": "Adaptación de un template HTML a Angular, utilizando componentes, enrutamiento, mocks y servicios",
-    "description_long": "Este proyecto es una adaptación de un template HTML estático al framework Angular, creado con el objetivo de ser utilizado como portfolio personal y como plataforma para poner en práctica mis habilidades de desarrollo. En este proyecto, he trabajado en varios aspectos técnicos, tales como: Adaptación de Template: Comencé con un template HTML estándar y lo adapté completamente a Angular. Esto incluyó la conversión de archivos estáticos a componentes Angular, la integración de servicios y la implementación de funcionalidades dinámicas. Manejo de Mocks y Servicio: Implementé mocks de datos para estructurar y definir los datos, gestionada mediante servicios Angular. Esto me permitió crear un flujo de datos eficiente y flexible. Manejo de Rutas: Utilicé el sistema de enrutamiento de Angular para organizar las diferentes secciones del portfolio, facilitando la navegación entre componentes sin recargar la página. GitHub Pages: El proyecto está desplegado en GitHub Pages, lo que me permite tener un portfolio accesible online. Prácticas de Desarrollo: Este proyecto sirve como un espacio para aplicar y fortalecer mis conocimientos en Angular, aprendiendo sobre la estructura de la aplicación, el manejo de datos, las rutas y la implementación de servicios en un entorno real.",
+    "description_short": "Adaptación de template HTML a Angular utilizando componentes, enrutamiento, mocks y servicios.",
+    "description_long": "Adaptación de Template: Conversión de archivos estáticos a componentes dinámicos de Angular. Manejo de Datos: Implementación de mocks y servicios para una gestión de datos fluida y escalable. Navegación: Uso de sistema de rutas (Routing) para una experiencia Single Page Application (SPA). Despliegue: Configuración y hosting mediante GitHub Pages para accesibilidad online.",
     "client": "Mariana Naselli",
     "date": "Noviembre, 2024",
     "url": "https://marinaselli.github.io/",
@@ -43,26 +42,18 @@
     ]
   },
   {
-    "title": "Proyecto Argentina Programa y su evolución",
-    "technologies": ["Angular", "MySQL", "Spring Boot", "Bootstrap", "Java", "Node.js", "NestJS" ],
-    "description_short": "Portfolio web editable con autenticación, desarrollado con Angular, Bootstrap, Spring Boot y MySQL evolucionado a una red de portfolios en Node.js con NestJS.",
-    "description_long":"Este proyecto comenzó como parte del programa Argentina Programa, diseñado originalmente como un portfolio profesional editable utilizando para el frontend Angular y Bootstrap, para el backend Spring Boot con Java y base de datos MySQL. Con el tiempo, evolucioné el proyecto para adaptarlo a nuevas tecnologías y mejorar tanto su funcionalidad como la experiencia del usuario. Realicé mejoras en la autenticación y acceso: Implementé un sistema de autenticación más seguro. Agregué la posibilidad de crear cuentas nuevas, eliminando la dependencia de credenciales hardcodeadas. Aunque la recuperación de contraseñas aún no está disponible, está planificada para futuras versiones. Transformé el proyecto en una red de perfiles profesionales. La página principal muestra tarjetas con fotos de perfil, nombres y acceso al portfolio de cada usuario. Migración tecnológica: Backend migrado de Spring Boot a Node.js con NestJS. Implementación en la web: Utilicé servicios gratuitos como Firebase, Render y Clever Cloud para alojar la aplicación, asegurando accesibilidad y reducción de costos. Este proyecto no solo funciona como un portfolio profesional editable, sino también como una red que conecta perfiles profesionales.",
-    "client": "Argentina Programa, Mariana Naselli",
-    "date": "Nov, 2021 - Mar, 2023 / Nov 2024",
+    "title": "Red de Portfolios Profesionales",
+    "technologies": ["Angular", "Spring Boot", "Node.js", "NestJS", "MySQL"],
+    "description_short": "Evolución de un portfolio web editable a una red profesional con autenticación y backend escalable.",
+    "description_long": "Seguridad y Acceso: Implementación de sistema de autenticación dinámico con creación de cuentas de usuario. Migración Tecnológica: Evolución del backend de Spring Boot (Java) a una arquitectura moderna en Node.js con NestJS. Red Profesional: Transformación de perfil único a una red de usuarios con tarjetas interactivas y perfiles individuales. Cloud Hosting: Despliegue integral utilizando servicios como Firebase, Render y Clever Cloud.",
+    "client": "Argentina Programa",
+    "date": "2021 - 2024",
     "url": "https://portfolio-web-2559b.web.app/",
-    "url_github":"https://github.com/MariNaselli/portfolio-FrontEnd, https://github.com/MariNaselli/portfolio-BackEnd, https://github.com/MariNaselli/portfolio-backend-nest", 
+    "url_github": "https://github.com/MariNaselli/portfolio-FrontEnd",
     "project_name": "Mi primer proyecto",
     "carrousel_images": [
       "assets/img/portfolio/1.png",
-      "assets/img/portfolio/2.png",
-      "assets/img/portfolio/3.png",
-      "assets/img/portfolio/4.png",
-      "assets/img/portfolio/5.png",
-      "assets/img/portfolio/6.png",
-      "assets/img/portfolio/7.png",
-      "assets/img/portfolio/8.png",
-      "assets/img/portfolio/9.png"
+      "assets/img/portfolio/2.png"
     ]
   }
-  
 ]
