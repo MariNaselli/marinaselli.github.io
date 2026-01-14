@@ -1296,6 +1296,27 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Ajuste de Proporción y Fondo Negro para Imágenes
+--------------------------------------------------------------*/
+.portfolio-details .swiper-slide img,
+.portfolio-item img,
+.img-fluid {
+  width: 100% !important;
+  height: 250px !important;      /* Esta es la altura estándar */
+  object-fit: contain !important; /* Muestra la foto entera sin recortes */
+  background-color: #000000 !important; /* Crea el fondo negro automático */
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Asegura que el contenedor del carrusel también tenga fondo negro */
+.swiper-slide {
+  background-color: #000 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+/*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-wrap {
