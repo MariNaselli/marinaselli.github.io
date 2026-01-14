@@ -1,5 +1,21 @@
 [
   {
+    "title": "Transcriptor Automático Bilingüe (OCR)",
+    "technologies": ["Python", "Tesseract OCR", "Streamlit", "Pillow"],
+    "description_short": "Aplicación web inteligente para la conversión de imágenes a texto editable con soporte multilingüe.", 
+    "description_long": "Desarrollo de una plataforma web capaz de reconocer y extraer texto de imágenes (JPG, PNG) de manera instantánea. Implementé un motor OCR con soporte dual para español e inglés y una interfaz de usuario minimalista. El sistema permite la descarga directa de los resultados en archivos .txt con codificación UTF-8, garantizando la compatibilidad de caracteres especiales y acentos tanto en computadoras como en dispositivos móviles.", 
+    "client": "Proyecto Personal",
+    "date": "Enero, 2026",
+    "url": "https://proyecto-automatizacion-ocr.streamlit.app/",
+    "url_github": "https://github.com/MariNaselli/Proyecto-Automatizacion-OCR",
+    "project_name": "OCR-Pro",
+    "carrousel_images": [
+      "assets/img/portfolio/ocr1.png",
+      "assets/img/portfolio/ocr2.png",
+      "assets/img/portfolio/ocr3.png"
+    ]
+},
+  {
     "title": "Organizador de Archivos",
     "technologies": ["Python", "Watchdog", "OS/Shutil"],
     "description_short": "Automatización en Python: clasificación de archivos y monitoreo de directorios en tiempo real.", 
