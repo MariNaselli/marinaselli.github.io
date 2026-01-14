@@ -1,35 +1,25 @@
 <section id="about" class="about section" *ngIf="aboutData">
   <div class="container" data-aos="fade-up" data-aos-delay="100">
     <div class="row gy-4">
-      <div class="col-md-6">
-        <div class="row justify-content-between gy-4">
-          <div class="col-lg-5">
-            <img [src]="aboutData.image" class="img-fluid" alt="Profile Image" />
-          </div>
-          <div class="col-lg-7 about-info">
-            <p><strong>Nombre: </strong> <span>{{ aboutData.name }}</span></p>
-            <p><strong>Perfil: </strong> <span>{{ aboutData.profile }}</span></p>
-            <p><strong>Email: </strong> <span>{{ aboutData.email }}</span></p>
-            <p><strong>Teléfono: </strong> <span>{{ aboutData.phone }}</span></p>
-          </div>
-        </div>
-
-        <div class="skills-content skills-animation">
-          <h5>Habilidades personales y profesionales</h5>
-          <div *ngFor="let skill of aboutData.skills" class="progress">
-            <span class="skill">{{ skill.name }} <i class="val">{{ skill.percentage }}%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" [style.width]="skill.percentage + '%'"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="about-me">
+      
+      <div class="col-md-12">
+        
+        <div class="about-me mb-4">
           <h4>Sobre mi</h4>
           <p class="text-justify">{{ aboutData.aboutMe }}</p>
         </div>
+
+        <div class="skills-content">
+          <h5>Habilidades personales y profesionales</h5>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <span *ngFor="let skill of aboutData.skills" 
+                  class="badge border border-primary text-primary px-3 py-2"
+                  style="background: transparent; font-weight: 500;">
+              {{ skill.name }}
+            </span>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

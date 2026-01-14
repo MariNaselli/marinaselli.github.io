@@ -52,6 +52,7 @@
     "url_github": "https://github.com/MariNaselli/portfolio-FrontEnd,https://github.com/MariNaselli/portfolio-BackEnd,https://github.com/MariNaselli/portfolio-backend-nest",
     "project_name": "Mi primer proyecto",
     "carrousel_images": [
+      "assets/img/portfolio/red-portfolio.png",
       "assets/img/portfolio/1.png",
       "assets/img/portfolio/2.png",
       "assets/img/portfolio/3.png",
