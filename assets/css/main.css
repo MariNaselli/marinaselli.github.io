@@ -1315,6 +1315,39 @@ section,
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+
+}
+
+/* --- Ajuste Responsivo para el Carrusel --- */
+
+/* 1. Ajuste general (Computadoras) */
+.portfolio-details p-carousel .p-carousel-item > div {
+  background-color: black !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 450px !important; /* Altura para PC */
+}
+
+/* 2. Ajuste para Celulares (Pantallas menores a 768px) */
+@media (max-width: 768px) {
+  .portfolio-details p-carousel .p-carousel-item > div {
+    height: 250px !important; /* Altura reducida para que no sea tan vertical */
+  }
+  
+  .portfolio-details p-carousel img {
+    max-height: 250px !important;
+  }
+}
+
+/* Asegura que la imagen siempre respete el contenedor */
+.portfolio-details p-carousel img {
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: 450px !important;
+  object-fit: contain !important;
 }
 /*--------------------------------------------------------------
 # Contact Section
